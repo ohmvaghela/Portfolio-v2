@@ -4,17 +4,19 @@ import { Hero } from "../Hero/Hero";
 import { About } from "../About/About";
 import { Contact } from "../Contact/Contact";
 import { Project } from "../Project/Project";
-import wordpress from "../../assets/wordpress.svg";
-import shopify from "../../assets/shopify.svg";
 import htmlIcon from "../../assets/html-icon.svg";
 import cssIcon from "../../assets/css-icon.svg";
-import sassIcon from "../../assets/sass-icon.svg";
 import jsIcon from "../../assets/js-icon.svg";
 import nodeIcon from "../../assets/node-icon.svg";
+import djangoIcon from "../../assets/django.svg";
+import mongoIcon from "../../assets/mongo.svg";
+import mysqlIcon from "../../assets/mysql-icon.svg";
+import dockerIcon from "../../assets/docker-logo-svgrepo-com.svg";
 import reactIcon from "../../assets/react-icon.svg";
-import typescriptIcon from "../../assets/typescript-icon.svg";
-import vueIcon from "../../assets/vue-icon.svg";
-import boostrapIcon from "../../assets/bootstrap-icon.svg";
+import k8sIcon from "../../assets/k8s.svg";
+import cppIcon from "../../assets/cpp.svg";
+import pythonIcon from "../../assets/python-svgrepo-com.svg";
+import { Blog } from "../Blog/Blog";
 
 export function Main() {
   return (
@@ -147,24 +149,55 @@ export function Main() {
                 "value": "*",
                 "weight": "400"
               },
+              // node, django, react, mongo, mysql,docker, kube, cpp, python, css, html, js
               "image": [
                 {
-                  "src": boostrapIcon,
+                  "src": nodeIcon,
+                  "width": 20,
+                  "height": 20
+                },
+                {
+                  "src": djangoIcon,
+                  "width": 20,
+                  "height": 20
+                },
+                {
+                  "src": reactIcon,
+                  "width": 20,
+                  "height": 20
+                },
+                {
+                  "src": mongoIcon,
+                  "width": 20,
+                  "height": 20
+                },
+                {
+                  "src": mysqlIcon,
+                  "width": 20,
+                  "height": 20
+                },
+                {
+                  "src": dockerIcon,
+                  "width": 20,
+                  "height": 20
+                },
+                {
+                  "src": k8sIcon,
+                  "width": 20,
+                  "height": 20
+                },
+                {
+                  "src": cppIcon,
+                  "width": 20,
+                  "height": 20
+                },
+                {
+                  "src": pythonIcon,
                   "width": 20,
                   "height": 20
                 },
                 {
                   "src": cssIcon,
-                  "width": 20,
-                  "height": 20
-                },
-                {
-                  "src": wordpress,
-                  "width": 20,
-                  "height": 20
-                },
-                {
-                  "src": shopify,
                   "width": 20,
                   "height": 20
                 },
@@ -175,41 +208,6 @@ export function Main() {
                 },
                 {
                   "src": jsIcon,
-                  "width": 20,
-                  "height": 20
-                },
-                // {
-                //   "src": mysqlIcon,
-                //   "width": 20,
-                //   "height": 20
-                // },
-                {
-                  "src": nodeIcon,
-                  "width": 20,
-                  "height": 20
-                },
-                {
-                  "src": reactIcon,
-                  "width": 20,
-                  "height": 20
-                },
-                {
-                  "src": sassIcon,
-                  "width": 20,
-                  "height": 20
-                },
-                {
-                  "src": typescriptIcon,
-                  "width": 20,
-                  "height": 20
-                },
-                // {
-                //   "src": vscodeIcon,
-                //   "width": 20,
-                //   "height": 20
-                // },
-                {
-                  "src": vueIcon,
                   "width": 20,
                   "height": 20
                 },
@@ -258,6 +256,7 @@ export function Main() {
       <Hero></Hero>
       <About></About>
       <Project></Project>
+      <Blog></Blog>
       <Contact></Contact>
     </Container>
   );

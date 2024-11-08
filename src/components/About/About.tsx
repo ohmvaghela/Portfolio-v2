@@ -1,12 +1,20 @@
 import { Container } from "./styles";
 import VinayakSingh from "../../assets/VinayakSingh.png";
+import OhmVaghela from "../../assets/ohm4.png";
 import wordpress from "../../assets/wordpress.svg";
 import shopify from "../../assets/shopify.svg";
 import htmlIcon from "../../assets/html-icon.svg";
 import cssIcon from "../../assets/css-icon.svg";
 import jsIcon from "../../assets/js-icon.svg";
 import nodeIcon from "../../assets/node-icon.svg";
+import djangoIcon from "../../assets/django.svg";
+import mongoIcon from "../../assets/mongo.svg";
+import mysqlIcon from "../../assets/mysql-icon.svg";
+import dockerIcon from "../../assets/docker-logo-svgrepo-com.svg";
 import reactIcon from "../../assets/react-icon.svg";
+import k8sIcon from "../../assets/k8s.svg";
+import cppIcon from "../../assets/cpp.svg";
+import pythonIcon from "../../assets/python-svgrepo-com.svg";
 import typescriptIcon from "../../assets/typescript-icon.svg";
 import vueIcon from "../../assets/vue-icon.svg";
 import boostrapIcon from "../../assets/bootstrap-icon.svg";
@@ -21,49 +29,67 @@ export function About() {
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.1 * 1000}>
           <p>
-            Hi there! I'm Vinayak, a website developer with a passion for creating custom online experiences for my clients. With a skill set including HTML, CSS, JavaScript, and React, I have the tools to bring any website vision to life.
+          Hi, I'm Ohm, a passionate technologist with a strong foundation in software development. I hold a post-graduate degree from Indian Institute of Technology (IIT) Bhubaneswar. With a keen interest in web development, I've developed expertise in backend development using Node.js and Django.
           </p>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.2 * 1000} style={{ marginTop: "2rem", marginBottom: "2rem" }}>
           <p>
-            But my services go beyond just custom development - I'm also proficient in using CMS systems like WordPress and Shopify, making it easy for my clients to take control of their own websites and keep them up to date.</p>
+          I did my internship at Accio Robotics which provided me a valuable hands-on experience, where I successfully implemented a localization algorithm and designed a batching algorithm from scratch, showcasing my capabilities in low-level design. I am also good at problem solving which can be showcased in the projects section
+          </p>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.3 * 1000}>
           <p>
-            So if you're in need of a new website or just looking to revamp your current online presence, I'd love to chat and see how I can help. Let's bring your website dreams to reality together!</p>
+          Feel free to reach out - I'm always eager to connect and exchange ideas.
+          </p>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.4 * 1000}>
           <h3>Here are my main skills:</h3>
         </ScrollAnimation>
+        
         <div className="hard-skills">
           <div className="hability">
-            <ScrollAnimation animateIn="fadeInUp" delay={0.10 * 1000}>
-              <img src={wordpress} alt="Wordpress" />
+            <ScrollAnimation animateIn="fadeInUp" delay={0.16 * 1000}>
+              <img src={nodeIcon} alt="Node" />
             </ScrollAnimation>
-          </div>
+          </div>          
           <div className="hability">
-            <ScrollAnimation animateIn="fadeInUp" delay={0.12 * 1000}>
-              <img src={shopify} alt="shopify" />
+            <ScrollAnimation animateIn="fadeInUp" delay={0.16 * 1000}>
+              <img src={djangoIcon} alt="Django" />
             </ScrollAnimation>
-          </div>
+          </div>                    
           <div className="hability">
             <ScrollAnimation animateIn="fadeInUp" delay={0.13 * 1000}>
               <img src={reactIcon} alt="React" />
             </ScrollAnimation>
-          </div>
+          </div>          
           <div className="hability">
-            <ScrollAnimation animateIn="fadeInUp" delay={0.14 * 1000}>
-              <img src={typescriptIcon} alt="Typescript" />
+            <ScrollAnimation animateIn="fadeInUp" delay={0.17 * 1000}>
+              <img src={mongoIcon} alt="Mongo" />
             </ScrollAnimation>
           </div>
           <div className="hability">
-            <ScrollAnimation animateIn="fadeInUp" delay={0.15 * 1000}>
-              <img src={vueIcon} alt="Vue" />
+            <ScrollAnimation animateIn="fadeInUp" delay={0.17 * 1000}>
+              <img src={mysqlIcon} alt="mysql" />
             </ScrollAnimation>
           </div>
           <div className="hability">
-            <ScrollAnimation animateIn="fadeInUp" delay={0.16 * 1000}>
-              <img src={nodeIcon} alt="Node" />
+            <ScrollAnimation animateIn="fadeInUp" delay={0.17 * 1000}>
+              <img src={dockerIcon} alt="Docker" />
+            </ScrollAnimation>
+          </div>
+          <div className="hability">
+            <ScrollAnimation animateIn="fadeInUp" delay={0.17 * 1000}>
+              <img src={k8sIcon} alt="k8s" />
+            </ScrollAnimation>
+          </div>
+          <div className="hability">
+            <ScrollAnimation animateIn="fadeInUp" delay={0.17 * 1000}>
+              <img src={cppIcon} alt="cpp" />
+            </ScrollAnimation>
+          </div>
+          <div className="hability">
+            <ScrollAnimation animateIn="fadeInUp" delay={0.17 * 1000}>
+              <img src={pythonIcon} alt="python" />
             </ScrollAnimation>
           </div>
           <div className="hability">
@@ -78,11 +104,6 @@ export function About() {
           </div>
           <div className="hability">
             <ScrollAnimation animateIn="fadeInUp" delay={0.19 * 1000}>
-              <img src={boostrapIcon} alt="bootstrap" />
-            </ScrollAnimation>
-          </div>
-          <div className="hability">
-            <ScrollAnimation animateIn="fadeInUp" delay={0.19 * 1000}>
               <img src={jsIcon} alt="JavaScript" />
             </ScrollAnimation>
           </div>
@@ -90,7 +111,7 @@ export function About() {
       </div>
       <div className="about-image">
         <ScrollAnimation animateIn="fadeInRight" delay={0.20 * 1000}>
-          <img src={VinayakSingh} alt="Vinayak Singh" />
+          <img src={OhmVaghela} alt="Vinayak Singh" />
         </ScrollAnimation>
       </div>
     </Container>
